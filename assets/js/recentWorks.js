@@ -1,21 +1,21 @@
-/* const recentWorks = [
+const recentWorks = [
     {
-        title: "Personal Portfolio",
-        description: "Professional page for personal portfolio showcase.",
-        techs: ["Tailwind", "JS", "Vite"],
-        img: "/images/personal-portfolio.png"
+        title: "UEMF Blog",
+        description: "blog website developed using Node.js and React.js technologies.",
+        techs: ["Node", "React", "MongoDB", "Expressjs"],
+        img: "/images/uemfblog.png"
     },
     {
-        title: "Doctors Portal",
-        description: "Doctors appointment booking website.",
-        techs: ["React", "Node", "JS"],
-        img: "/images/doctors-portal.png"
+        title: "Ounes cart",
+        description: "a complete and functional e-commerce site",
+        techs: ["Node", "MongoDB", "EJS", "Bootstrap"],
+        img: "/images/ounescart.png"
     },
     {
-        title: "Digital Marketing",
-        description: "Professional page for digital marketing.",
-        techs: ["BS5", "CSS", "JS"],
-        img: "/images/digital-marketing.png"
+        title: "EDITOR",
+        description: "Application capable of editing images with different filters",
+        techs: ["Matlab"],
+        img: "/images/editor.png"
     },
 ];
 const parent = document.getElementById('recent-works');
@@ -38,7 +38,7 @@ const html = recentWorks.map(work =>
         <div class="my-4 flex flex-wrap">
             ${getTech(work.techs)}
         </div>
-        <a href="https://github.com/nchdatta/personal-portfolio" target="_blank"
+        <a href="https://github.com/youneshimi" target="_blank"
             class="w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
             Read more
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
@@ -52,4 +52,4 @@ const html = recentWorks.map(work =>
     </div>`
 );
 
-parent.innerHTML = html.join(" "); */
+parent.innerHTML = html.join(" ");

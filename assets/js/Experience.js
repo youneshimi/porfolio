@@ -1,6 +1,6 @@
 const Experience = [
     {
-        title: "Web developer",
+        title1: "Web developer",
         year: 2022,
         description: "Company JDI SOFT",
         institute: {
@@ -9,7 +9,7 @@ const Experience = [
             duration: " <br> Jul 2022 - Aug 2022"
         }
     }, {
-        title: "Computer scientist",
+        title2: "Computer scientist",
         year: 2022,
         description: "Company  INWI",
         institute: {
@@ -29,10 +29,8 @@ const html = Experience.map((exp, index) =>
         <div class="flex items-center">
             <time class="mb-1 mr-3 px-3 py-2 rounded-md leading-none text-gray-100 bg-blue-500 dark:bg-gray-600">${exp.year}</time>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">
-                <a href="https://jdi-soft.com/" target="_blank" class="ml-3">
-                    <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
-                <a href="https://inwi.ma" target="_blank" class="ml-3">
-                    <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
+                ${index === 0 ? exp.title2 : `<a href="https://inwi.ma" target="_blank" class="text-white hover:text-white">${exp.title}</a>`}
+                ${index === 0 ? exp.title1 : `<a href="https://jdi-soft.com/" target="_blank" class="text-white hover:text-white">${exp.title}</a>`}
                 </a>
             </h3>
         </div>

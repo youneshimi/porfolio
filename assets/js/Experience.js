@@ -9,9 +9,9 @@ const Experience = [
             duration: " <br> Jul 2022 - Aug 2022"
         }
     }, {
-        title: "computer scientist",
+        title: "Computer scientist",
         year: 2022,
-        description: "Company  inwi",
+        description: "Company  INWI",
         institute: {
             /* name: "Programming Hero", */
             shortName: "internship <br> Sefrou, Fez-Meknes, Morocco · Hybrid",
@@ -29,7 +29,7 @@ const html = Experience.map(exp =>
         <div class="flex items-center">
             <time class="mb-1 mr-3 px-3 py-2 rounded-md leading-none text-gray-100 bg-blue-500 dark:bg-gray-600">${exp.year}</time>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">${exp.title}
-                <a href="https://jdi-soft.com/" target="_blank" class="ml-3">
+                <a href="#" target="_blank" class="ml-3">
                     <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
                 </a>
             </h3>

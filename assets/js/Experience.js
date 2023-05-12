@@ -22,14 +22,15 @@ const Experience = [
 
 const parent = document.getElementById('Experience');
 
-const html = Experience.map(exp =>
+const html = Experience.map((exp, index) =>
     `<li class="mb-10 ml-4">
         <div class="absolute w-3 h-3 bg-gray-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
         </div>
         <div class="flex items-center">
             <time class="mb-1 mr-3 px-3 py-2 rounded-md leading-none text-gray-100 bg-blue-500 dark:bg-gray-600">${exp.year}</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">${exp.title}
-                <a href="#" target="_blank" class="ml-3">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">
+                ${index === 0 ? exp.title : `<a href="https://inwi.ma" target="_blank" class="text-blue-600 hover:text-blue-800">${exp.title}</a>`}
+                <a href="https://jdi-soft.com/" target="_blank" class="ml-3">
                     <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
                 </a>
             </h3>
@@ -41,4 +42,3 @@ const html = Experience.map(exp =>
     </li>`);
 
 parent.innerHTML = html.join(" ");
-

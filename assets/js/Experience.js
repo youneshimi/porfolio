@@ -29,7 +29,7 @@ const html = Experience.map((exp, index) =>
         <div class="flex items-center">
             <time class="mb-1 mr-3 px-3 py-2 rounded-md leading-none text-gray-100 bg-blue-500 dark:bg-gray-600">${exp.year}</time>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">
-               <a href="https://inwi.ma" target="_blank" class="text-blue-600 hover:text-blue-800">${exp.title}</a>}
+                ${index === 0 ? exp.title : `<a href="https://inwi.ma" target="_blank" class="text-blue-600 hover:text-blue-800">${exp.title}</a>`}
                 <a href="https://jdi-soft.com/" target="_blank" class="ml-3">
                     <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i>
                 </a>

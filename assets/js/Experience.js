@@ -6,6 +6,7 @@ const Experience = [
         institute: {
             /* name: "Programming Hero", */
             shortName: "internship",
+            location: "Fes-Meknes, Morocco On-site",
             duration: "Jul 2022 - Aug 2022"
         }
     }, {
@@ -15,6 +16,7 @@ const Experience = [
         institute: {
             /* name: "Programming Hero", */
             shortName: "internship",
+            location: "Sefrou, Fez-Meknes, Morocco · Hybrid",
             duration: "apr 2022 - May 2022"
         }
     },

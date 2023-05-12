@@ -8,6 +8,15 @@ const Experience = [
             shortName: "internship",
             duration: "Jul 2022 - Aug 2022"
         }
+    }, {
+        title: "computer scientist",
+        year: 2022,
+        description: "Company  inwi",
+        institute: {
+            /* name: "Programming Hero", */
+            shortName: "internship",
+            duration: "apr 2022 - May 2022"
+        }
     },
 ];
 

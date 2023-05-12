@@ -5,8 +5,7 @@ const Experience = [
         description: "Company JDI SOFT",
         institute: {
             /* name: "Programming Hero", */
-            shortName: "internship",
-            location: "Fes-Meknes, Morocco On-site",
+            shortName: "internship <br> Fes-Meknes, Morocco On-site",
             duration: "Jul 2022 - Aug 2022"
         }
     }, {
@@ -15,8 +14,7 @@ const Experience = [
         description: "Company  inwi",
         institute: {
             /* name: "Programming Hero", */
-            shortName: "internship",
-            location: "Sefrou, Fez-Meknes, Morocco · Hybrid",
+            shortName: "internship <br> Sefrou, Fez-Meknes, Morocco · Hybrid",
             duration: "apr 2022 - May 2022"
         }
     },

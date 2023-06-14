@@ -1,5 +1,5 @@
-Creative Commons Legal Code
-copyright (c) 2023 Younes Shimi
+## Creative Commons Legal Code
+_copyright (c) 2023 Younes Shimi_
 
 CC0 1.0 Universal
 
